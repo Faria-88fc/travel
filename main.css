@@ -168,3 +168,38 @@ section{
     height: 200px;
     object-fit: cover;
 }
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-section .container{
+    padding: 80px;
+    border-radius: 24px;
+    background-color: lavenderblush;
+    text-align: center;
+
+}
+.subscribe-section h2 {
+    font-family: "Poppins";
+    width: 70%;
+    margin: auto;
+  }
+  .subscribe-section input {
+    padding: 15px 30px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+  }
+
+  /* Footer */
+.footer-content {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  footer > p {
+    text-align: center;
+    padding-bottom: 16px;
+  }
