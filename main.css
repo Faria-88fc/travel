@@ -66,6 +66,17 @@ section{
     cursor: pointer;
     padding: 10px;
 }
+.checkbtn{
+    font-size: 30px;
+    color: indigo;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
 
 /*----------hero-section-------*/
 
@@ -203,3 +214,94 @@ section{
     text-align: center;
     padding-bottom: 16px;
   }
+
+  /*-----media query---------*/
+
+  /*responsibe for mobile devices---------*/
+
+  @media screen and( max-width:1440px)
+   {
+       html{
+           overflow-x: hidden;
+       }
+       body{
+           overflow-x: hidden;
+       }
+      
+       .container{
+           width: 80%;
+           margin: auto;
+       }
+
+       
+      
+  }
+  /*for tablet*/
+ @media  screen and (max-width:1024px) {
+     html{
+         overflow-x: hidden;
+     }
+     body{
+         overflow-x: hidden;
+     }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .hero-sec-content{
+        max-width: 100%;
+    }
+  
+     
+ }
+ /*for mobile devices*/
+
+ @media  screen and (max-width:600px) {
+
+    .nav-logo{
+        width: 70px;
+    }
+    .nav-logo img{
+        width: 100%;
+    }
+    .menu ul{
+        display: none
+     
+    }
+
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .hero-sec-content{
+        max-width: 100%;
+    }
+    .hero-sec-content h1{
+        font-size: 65px;
+    }
+    .brands{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .subscribe-section .container{
+        padding: 30px;
+    }
+    .subscribe-section h2{
+        width: 100%;
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-content .logo{
+        max-width: 150px;
+        margin: auto;
+    }
+     
+ }
